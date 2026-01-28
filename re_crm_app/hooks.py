@@ -5,6 +5,48 @@ app_description = "Real estate app"
 app_email = "mainadunpaul@gmail.com"
 app_license = "mit"
 
+doctype_js = {
+	"Reservation": "public/js/reservation.js",
+	"Offer Letter": "public/js/offer_letter.js",
+	"Property": "public/js/property.js",
+}
+
+doc_events = {
+  "Reservation": {
+    "on_update": "re_crm_app.doc_events.unit_status.reservation_on_update",
+  },
+  "Sales Agreement": {
+    "on_update": "re_crm_app.doc_events.unit_status.sales_agreement_on_update",
+  },
+  "Property": {
+    "before_delete": "re_crm_app.doc_events.property_guards.property_before_delete",
+  },
+}
+
+doc_events.update({
+  "Reservation": {
+    "validate": "re_crm_app.doc_events.validation.reservation_validate",
+    "on_update": "re_crm_app.doc_events.unit_status.reservation_on_update",
+  },
+  "Sales Agreement": {
+    "validate": "re_crm_app.doc_events.validation.agreement_validate",
+    "on_update": "re_crm_app.doc_events.unit_status.sales_agreement_on_update",
+  },
+  "Property Unit": {
+    "on_update": "re_crm_app.doc_events.unit_stats.unit_on_update",
+    "on_trash": "re_crm_app.doc_events.unit_stats.unit_on_trash",
+  },
+  "Offer Letter": {
+    "validate": "re_crm_app.doc_events.payment_plan.offer_letter_validate",
+  }
+})
+
+doctype_js.update({
+  "Sales Agreement": "public/js/sales_agreement.js",
+})
+
+
+
 # Apps
 # ------------------
 

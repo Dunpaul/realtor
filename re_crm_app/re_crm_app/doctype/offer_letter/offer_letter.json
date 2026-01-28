@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-01-02 12:51:46.678099",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "lead",
+  "property_unit",
+  "deposit_amount",
+  "schedule_start_date",
+  "auto_generate_schedule",
+  "col_one",
+  "reservation",
+  "customer",
+  "offer_price",
+  "payment_cycle",
+  "valid_until",
+  "installments",
+  "section_one",
+  "payment_plan",
+  "status",
+  "terms"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Naming Series",
+   "options": "OFF-\nYYYY-\n-"
+  },
+  {
+   "fieldname": "reservation",
+   "fieldtype": "Link",
+   "label": "Reservation",
+   "options": "Reservation"
+  },
+  {
+   "fieldname": "lead",
+   "fieldtype": "Link",
+   "label": "Lead",
+   "options": "Lead"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_unit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Property Unit",
+   "options": "Property Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "offer_price",
+   "fieldtype": "Currency",
+   "label": "Offer Price",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "deposit_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Deposit Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_plan",
+   "fieldtype": "Table",
+   "label": "Payment Plan",
+   "options": "Offer Payment Milestones"
+  },
+  {
+   "fieldname": "valid_until",
+   "fieldtype": "Date",
+   "label": "Valid Until"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSent\nAccepted\nRejected\nExpired"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Text Editor",
+   "label": "Terms"
+  },
+  {
+   "fieldname": "payment_cycle",
+   "fieldtype": "Select",
+   "label": "Payment Cycle",
+   "options": "Monthly\nQuarterly\nSemi-Annual\nAnnual",
+   "reqd": 1
+  },
+  {
+   "fieldname": "schedule_start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Schedule Start Date",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "auto_generate_schedule",
+   "fieldtype": "Check",
+   "label": "Autogenerate Schedule"
+  },
+  {
+   "fieldname": "installments",
+   "fieldtype": "Int",
+   "label": "Installments",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "col_one",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_one",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-06 21:08:47.099058",
+ "modified_by": "Administrator",
+ "module": "Re Crm App",
+ "name": "Offer Letter",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

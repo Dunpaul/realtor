@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:code_prefix",
+ "creation": "2026-01-04 12:56:15.744060",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unit_type",
+  "count",
+  "size",
+  "listing_price",
+  "rent_price",
+  "code_prefix",
+  "start_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "unit_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Unit Type",
+   "options": "Studio\n1BR\n2BR\n3BR\n4BR\n5BR",
+   "reqd": 1
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number Of Units",
+   "reqd": 1
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Float",
+   "label": "Size"
+  },
+  {
+   "fieldname": "listing_price",
+   "fieldtype": "Currency",
+   "label": "Listing Price"
+  },
+  {
+   "fieldname": "rent_price",
+   "fieldtype": "Currency",
+   "label": "Rent Price"
+  },
+  {
+   "fieldname": "code_prefix",
+   "fieldtype": "Data",
+   "label": "Prefix (e.g WP1-1BR)",
+   "unique": 1
+  },
+  {
+   "fieldname": "start_number",
+   "fieldtype": "Int",
+   "label": "Starting Floor Number"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-01-04 13:04:57.483799",
+ "modified_by": "Administrator",
+ "module": "Re Crm App",
+ "name": "Property Unit Plan",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
