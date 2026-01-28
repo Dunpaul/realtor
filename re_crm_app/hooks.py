@@ -289,3 +289,16 @@ doctype_js.update({
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+    {
+        "dt": "Workspace",
+        "filters": [
+            ["module", "in", ["Re Crm App"]]  # adjust module names if different; include "Home" if customized
+        ]
+    },
+    # "Desk Page",  # captures desk layouts if customized
+    "Module Def",  # for module visibility/icons/order in sidebar
+    # Add these if you have custom reports/dashboards
+    # "Report",
+    # "Dashboard",
+]

@@ -1,0 +1,132 @@
+{
+ "charts": [
+  {
+   "chart_name": "Opportunities via Campaigns",
+   "label": "Opportunities Via Campaigns"
+  }
+ ],
+ "content": "[{\"id\":\"4wE3CDMqRP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Campaigns</span>\",\"col\":12}},{\"id\":\"NokluLm4Pf\",\"type\":\"card\",\"data\":{\"card_name\":\"Sms and Email Capigns\",\"col\":4}},{\"id\":\"m1V9TM1UM5\",\"type\":\"card\",\"data\":{\"card_name\":\"Campaign Settings\",\"col\":4}},{\"id\":\"JRe94KOo6U\",\"type\":\"card\",\"data\":{\"card_name\":\"Campaign Reports\",\"col\":4}},{\"id\":\"mZsINqqhVj\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Opportunities Via Campaigns\",\"col\":12}}]",
+ "creation": "2026-01-03 16:39:58.188888",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "message",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Campaigns",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Campaign Settings",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Groups",
+   "link_count": 0,
+   "link_to": "Email Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Templates",
+   "link_count": 0,
+   "link_to": "Email Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sms Settings",
+   "link_count": 0,
+   "link_to": "SMS Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sms and Email Capigns",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Email Campaigns",
+   "link_count": 0,
+   "link_to": "Email Campaign",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sms Campaigns",
+   "link_count": 0,
+   "link_to": "SMS Center",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sms Logs",
+   "link_count": 0,
+   "link_to": "SMS Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Campaign Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Campaign Efficiency",
+   "link_count": 0,
+   "link_to": "Campaign Efficiency",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-01-28 22:24:27.706672",
+ "modified_by": "Administrator",
+ "module": "Re Crm App",
+ "name": "Campaigns",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 15.0,
+ "shortcuts": [],
+ "title": "Campaigns"
+}

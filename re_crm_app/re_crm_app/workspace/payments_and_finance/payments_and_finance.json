@@ -1,0 +1,46 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"IFh91af5Bh\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">PAYMENTS &amp; FINANCE</span>\",\"col\":12}},{\"id\":\"vKoigS1lYb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":6}},{\"id\":\"nmf-xbWMtK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Entry\",\"col\":6}}]",
+ "creation": "2026-01-02 15:17:20.189235",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Payments and Finance",
+ "links": [],
+ "modified": "2026-01-28 22:24:04.023599",
+ "modified_by": "Administrator",
+ "module": "Re Crm App",
+ "name": "Payments and Finance",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Payments and Finance"
+}
